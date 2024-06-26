@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= username %>&nbsp;|&nbsp;LinkedIn</title>
+    <link rel="shortcut icon" href="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk4Mi1kNS0xMF8xLnBuZw.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/experience.css">
+</head>
+<body>
+    <div class="experience">
+        <h3 class="experienceHead">Experience</h3>
+        <% for( let index = 0; index < data.experience.length; index++ ) { %>
+            <div class="row">
+                <img src="<%= data.experience[index].logo %>" alt="i" class="comimg">
+                <div>
+                    <h3 class="comhead"><%= data.experience[index].company %></h3>
+                    <p class="monthhead"><%= data.experience[index].workMonths %></p>
+                </div>
+            </div>
+            <div class="dhakal">
+                <ul>
+                    <li><h3><%= data.experience[index].post %></h3></li>
+                </ul>
+                <p class="monthhead"><%= data.experience[index].date %></p>
+            </div>
+            <p class="aboutwork"><%= data.experience[index].aboutWork %></p>
+        <% } %>
+    </div>
+</body>
+</html>

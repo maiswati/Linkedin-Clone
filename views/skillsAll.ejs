@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills |&nbsp;<%= username %>&nbsp;|&nbsp;LinkedIn</title>
+    <link rel="shortcut icon" href="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk4Mi1kNS0xMF8xLnBuZw.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/skillsAll.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrIbiofxGclX20CWBDtpmjOcbbuqEJS6PrSQ&s" alt="logo" id="linkedLogo">
+            <div class="box">
+                <i class="fa-solid fa-magnifying-glass sea-btn" style="color: #31353a;"></i>
+                <input type="text" placeholder="Search" id="search">
+            </div>
+        </div>
+        <div class="small-container">
+            <div class="head1">
+                <i class="fa-solid fa-house network"></i>
+                <p class="head">Home</p>
+            </div>
+            <div class="head1">
+                <img src="https://www.shareicon.net/data/2017/05/24/886418_network_512x512.png" alt="image" class="network">
+                <p class="head">My Network</p>
+            </div>
+            <div class="head1">
+                <i class="fa-solid fa-suitcase network"></i>
+                <p class="head">Jobs</p>
+            </div>
+            <div class="head1">
+               <img src="https://cdn-icons-png.freepik.com/256/150/150427.png?semt=ais_hybrid" alt="" class="network"> 
+               <p class="head">Messging</p>
+            </div>
+            <div class="head1">
+                <i class="fa-solid fa-bell network" style="color: #000000;"></i>
+                <p class="head">Notifications</p>
+            </div>
+            <div class="head1">
+                <img src="<%= data.myImg %>" alt="my image" class="portfolio">
+                <p class="head">Me</p>
+            </div>
+            <div class="vertical_line"></div>
+        </div>
+    </div>
+    <div class="containBox">
+        <div class="containBox1">
+            <img src="<%= data.myImg %>" alt="myIm" class="portfolio1">
+            <div class="smallIn">
+                <p class="skillName"><%= data.name %></p>
+                <p>
+                    <% for( let index = 0; index < data.smallInfo.length; index++ ) { %>
+                        <p class="small"><%= data.smallInfo[index] %>&nbsp;|&nbsp;</p>
+                    <% } %>
+                </p>
+            </div>
+        </div>
+        <div class="containBox2">
+            <button class="more">More</button>
+            <button class="message">Message</button>
+            <button id="connect">
+                <div class="connect">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M640-80v-90q-56-18-94-64t-44-106h80q8 43 40.5 71.5T700-240h120q25 0 42.5 17.5T880-180v100H640Zm120-200q-33 0-56.5-23.5T680-360q0-33 23.5-56.5T760-440q33 0 56.5 23.5T840-360q0 33-23.5 56.5T760-280ZM360-400q0-150 105-255t255-105v80q-117 0-198.5 81.5T440-400h-80Zm160 0q0-83 58.5-141.5T720-600v80q-50 0-85 35t-35 85h-80ZM80-520v-100q0-25 17.5-42.5T140-680h120q45 0 77.5-28.5T378-780h80q-6 60-44 106t-94 64v90H80Zm120-200q-33 0-56.5-23.5T120-800q0-33 23.5-56.5T200-880q33 0 56.5 23.5T280-800q0 33-23.5 56.5T200-720Z"/></svg>
+                    <p class="people">Connect</p>
+                </div>
+            </button>
+        </div>
+    </div>
+    <div class="box3">
+        <div class="skillArro">
+            <i class="fa-sharp fa-solid fa-arrow-left arrl" onclick="goBack()"></i>
+            <h3>Skills</h3>
+        </div>
+        <div class="buttons">
+            <button class="btns1">All</button>
+            <button class="btns2">Industry Knowledge</button>
+            <button class="btns3">Tools & Technologies</button>
+            <button class="btns4">Interpersonal Skills</button>
+            <button class="btns5">Other Skills</button>
+        </div>
+        <div class="All">
+            <% for( let index = 0; index < data.skills.length; index++ ) { %>
+                <div class="skillco">
+                    <p class="skillPa"><a href="#"><%= data.skills[index] %></a></p>
+                    <hr class="hrLine">
+                </div>
+            <% } %>
+        </div>
+        <div class="industryKnow">
+            <% for( let index = 8; index < 16 ; index++ ) { %>
+                <div>
+                    <p class="skillPa"><a href="#"><%= data.skills[index] %></a></p>
+                    <hr class="hrLine">
+                </div>
+            <% } %>
+        </div>
+        <div class="tools">
+            <% for( let index = 17; index < 31; index++ ) { %>
+                <div>
+                    <p class="skillPa"><a href="#"><%= data.skills[index] %></a></p>
+                    <hr class="hrLine">
+                </div>
+            <% } %>
+        </div>
+        <div class="interperSkill">
+                    <p class="skillPa"><a href="#"><%= data.skills[31] %></a></p>
+                    <hr class="hrLine">
+        </div>
+        <div class="otherSkill">
+                    <p class="skillPa"><a href="#"><%= data.skills[32] %></a></p>
+                    <hr class="hrLine">
+        </div>
+    </div>
+    <script src="/skillsAll.js"></script>
+</body>
+</html>

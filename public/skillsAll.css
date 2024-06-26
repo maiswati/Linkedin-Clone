@@ -1,0 +1,284 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f4f2ee;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+#linkedLogo{
+    height: 34.17px;
+    width: 34.17px;
+}
+.search{
+    display: flex;
+}
+.box{
+    height: 34.17px;
+    width: 250px;
+    background-color: #edf3f8;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    padding: 2px;
+}
+.sea-btn{
+    padding-right: 10px;
+    padding-left: 2px;
+}
+#search{
+    border: none;
+    outline: none;
+    background-color: #edf3f8;
+    font-size: 16px;
+}
+.head{
+    color: grey;
+    margin-top: 1px;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 55px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+.head1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 35px;
+    margin-top: 14px;
+}
+.network{
+    height: 26px;
+    width: 26px;
+    color: black;
+}
+.small-container{
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio{
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+}
+.vertical_line{
+    height: 60px;
+    background-color: lightgray;
+    width: 0.7px;
+    margin-left: 20px;
+    margin-top:8px ;
+}
+.small{
+    display: inline;
+    font-weight: 500;
+    font-size: 12px;
+    color: #242526ce;
+}
+.more{
+    color:#242526;
+    border-radius: 20px;
+    border:2px solid #242526;
+    height:30px;
+    width: 60px;
+    margin-left: 15px;
+}
+.more:hover{
+    color: black;
+    border: 3px solid black;
+    font-weight: 700;
+}
+.message{
+    color: #0d68c3;
+    border: 2px solid #0d68c3;
+    border-radius: 20px;
+    height: 30px;
+    width: 90px;
+    font-weight: 700;
+    background-color: white;
+    margin-left: 15px;
+}
+.message:hover{
+    background-color: #ebf4fd;
+    border: 3px solid #0d68c3;
+}
+#connect{
+    color: white;
+    background-color:#0d68c3 ;
+    border: none;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+.connect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 90px;
+}
+.people{
+    font-weight:700;
+}
+#connect:hover{
+    background-color: #004182;
+}
+.containBox{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    margin-top: 55px;
+    border-top: 1px solid lightgray;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.containBox1{
+    display: flex;
+    align-items: center;
+}
+.portfolio1{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+}
+.skillName{
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.841);
+    margin-bottom: -15px;
+}
+.containBox2{
+    display: flex;
+    align-items: center;
+}
+.smallIn{
+    margin-left: 10px;
+}
+.box3{
+    margin:5px auto auto;
+    height: 1910px;
+    width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid rgba(128, 128, 128, 0.251); 
+    margin-top: 130px;  
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+}
+.skillArro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+.skillPa{
+    margin-left: 30px;
+    font-weight: 500;
+}
+.hrLine{
+    width: 750px;
+    border: 1px solid rgba(128, 128, 128, 0.186);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline solid blue;
+}
+.arrl{
+    font-size: 30px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.arrl:hover{
+    background-color: rgba(128, 128, 128, 0.33);
+}
+.btns1{
+    margin-left: 30px;
+    margin-right: 15px;
+    height: 27px;
+    width: 40px;
+    border-radius: 13px;
+    border: none;
+    background-color: darkgreen;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px;
+}
+.btns2{
+    margin-right: 15px;
+    height: 27px;
+    border-radius: 13px;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.325);
+}
+.btns3{
+    margin-right: 15px;
+    height: 27px;
+    border-radius: 13px;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.325);
+}
+.btns4{
+    margin-right: 15px;
+    height: 27px;
+    border-radius: 13px;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.325);
+}
+.btns5{
+    margin-right: 15px;
+    height: 27px;
+    border-radius: 13px;
+    border: 1px solid rgba(0, 0, 0, 0.325);
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px;
+}
+.industryKnow{
+    display: none;
+}
+.tools{
+    display: none;
+}
+.interperSkill{
+    display: none;
+}
+.otherSkill{
+    display: none;
+}

@@ -1,0 +1,88 @@
+{ 
+    "sanika":{
+    "name": "Sanika Prakash",
+    "smallInfo":["Aspiring Defence Professional","Passionate Singer and Dancer","Piano Enthusiast"],
+    "intro":"Dedicated to a future in the defence forces, I find balance and joy in singing, dancing, and playing the piano. Let's connect!",
+    "city":"Bhaykhala",
+    "state":"Maharashtra",
+    "country":"India",
+    "noOfConnections":"250",
+    "profileLink":"linkedin.com/in/sanika-prakash-54b85752",
+    "birthDay":"May 19",
+    "about":"Aspiring defence professional with a passion for serving my country. I am also an enthusiastic singer, dancer, and piano player. My diverse interests reflect my dedication to hard work, creativity, and continuous learning. Let's connect and explore opportunities to collaborate!",
+    "noOfFollowers":"1,233 followers",
+    "myImg":"https://media.licdn.com/dms/image/D5603AQE_fk0TJbjnpA/profile-displayphoto-shrink_400_400/0/1719029817647?e=1724889600&v=beta&t=mBiAax8ZB1V4yS5DTRMJMgd05dZraOCuZKdN-ZcQZxo",
+    "posts":[
+        {
+            "logoImage":"https://img2.exportersindia.com/product_images/bc-full/2020/5/7270935/airforce-1588930468-5418089.jpg",
+            "intro":"🎖️ Excited to share that I've joined Valor Defence Institute! Ready to embark on this journey and grow both personally and professionally. #DefenceAcademy #NewBeginnings",
+            "likes":"1023",
+            "noOfComments": "16 comments",
+            "whenPosted":"2w"
+        },
+        {
+            "logoImage":"https://www.shutterstock.com/image-photo/handsome-young-indian-man-school-260nw-2116045781.jpg",
+            "intro":"🎵 Honored to receive Women of the Stage at Crescendo Cup! 🏆🎤 Grateful for the recognition of my passion for music. Thank you to everyone who supported me along the way! 🎶 #SingingAward #MusicPassion #Grateful",
+            "likes":"2504",
+            "noOfComments": "200 comments",
+            "whenPosted":"1mo"
+        }
+    ],
+    "experience":[
+        {   
+            "logo":"https://static.vecteezy.com/system/resources/thumbnails/010/057/815/small/record-studio-logo-template-audio-sound-headphones-logo-vector.jpg",
+            "company":"Echo Harmony Studios",
+            "workMonths":"6 mos",
+            "post":"Playback Singer",
+            "date": "May 2013 - Oct 2013",
+            "aboutWork":"Collaborating closely with composers, music directors, and producers to achieve desired vocal performances."
+        },
+        {   
+            "logo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLBpd4QbnsLIfCkONgtX1hEDKF-Ei0aEnE7Q&s",
+            "company":"Sahakar Defence Academy",
+            "workMonths":"2 years",
+            "post":"Defense Intern",
+            "date": "Jan 2005 - Jan 2007",
+            "aboutWork":"Conducted research and analysis on defense technology advancements and geopolitical trends."
+        }
+    ],
+    "education":[
+        {
+            "logoSchool":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXzvS1zs9sdh7ZbQQfjDh7AoSLFTQGIincUA&s",
+            "nameOfSchool":"Berklee College of Music",
+            "degreeName":"Bachelor of Music (B.M.)",
+            "date":"Jun 2000",
+            "grade":"8.5 cgpa"
+        },
+        {
+            "logoSchool":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzpm5fEgQZk-S1mrr3O9W2SBn638uZRuhPNQ&s",
+            "nameOfSchool":"Vishwa Sangam Vidyala",
+            "degreeName":"High School Diploma, upto 10th grade",
+            "date":"Jun 1995",
+            "grade":"95.6%"
+        }
+    ],
+    "comments":[
+        {
+            "comment":"Congratulations Pratham Tandale 🎉",
+            "monthAgo": "2w"
+        },
+        {
+            "comment":"Interesting ! Keep it up",
+            "monthAgo": "3w"
+        }
+    ],
+    "images":[
+        {
+            "src":"https://img2.exportersindia.com/product_images/bc-full/2020/5/7270935/airforce-1588930468-5418089.jpg"
+        },
+        {
+            "src":"https://www.shutterstock.com/image-photo/handsome-young-indian-man-school-260nw-2116045781.jpg"
+        }
+    ],
+    "skills":["Singing","Music Theory","Tactical Training","Risk Assessment","Weapons Handling","Crisis Management","Choreography","Dance Technique (e.g., Ballet, Jazz, Contemporary)","Software Development","WebSocket","Express.js","Front-End Development","Responsive Web Design","Full-Stack Development","Back-End Web Development","Graphic Design","Web Development","MERN Stack","Next.js","Postman API","JSON Web Token (JWT)","SQL","Material-UI","GitHub","Bootstrap","Tailwind CSS","Git","Python (Programming Language)","MongoDB","React.js","HTML5","Problem Solving","Generative AI"],
+    "nameOfExam":"TOEFL",
+    "score": "117"
+}
+}
+

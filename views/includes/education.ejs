@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= username %>&nbsp;|&nbsp;LinkedIn</title>
+    <link rel="shortcut icon" href="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk4Mi1kNS0xMF8xLnBuZw.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/education.css">
+</head>
+<body>
+    <div class="education">
+        <h3 class="eduHead">Education</h3>
+        <% for(let index = 0; index < data.education.length; index++) { %>
+            <div class="rown">
+                <div>
+                    <img src="<%= data.education[index].logoSchool %>" alt="im" class="schoolLogo">
+                </div>
+                <div class="edu">
+                    <h3 class="edu1"><%= data.education[index].nameOfSchool %></h3>
+                    <p class="edu2"><%= data.education[index].degreeName %></p>
+                    <p class="edu3"><%= data.education[index].date %></p>
+                    <p class="edu4">Grade:&nbsp;&nbsp;&nbsp;<%= data.education[index].grade %></p>
+                </div>
+                <hr>
+            </div>
+        <% } %>
+    </div>
+    
+    
+</body>
+</html>
